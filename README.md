@@ -43,6 +43,12 @@ channel.onmessage = (event) => {
   console.log("Received:", data);
 };
 ```
+## How to Run
+
+1. Open the project folder in **VS Code** (or any code editor).  
+2. Right-click on `index.html` and select **"Open with Live Server"**.  
+3. The to-do board will open in your default browser.  
+4. (Optional) Open another browser tab to see **real-time synchronization** with BroadcastChannel.
 
 ### Layout
 <img width="1575" height="921" alt="image" src="https://github.com/user-attachments/assets/b54d60a8-18f4-411e-bd03-58047b3034d3" />
